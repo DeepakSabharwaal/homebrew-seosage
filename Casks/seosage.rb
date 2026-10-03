@@ -1,9 +1,9 @@
 cask "seosage" do
   arch arm: "M-series", intel: "Intel"
 
-  version "1.103.0"
-  sha256 arm:   "b53f85a7fe562c867d5ae6f9686c8a78703abf3d5da928a28342b491a1ab192f",
-         intel: "5d4ae8657a13ba89a4f00da64c6e804654f5f54d057e3915ed384a000a3bdd6d"
+  version "1.104.3"
+  sha256 arm:   "201bdae51ba7990c1516a807c4afbc5bdff5a5bde8764619f3c5e73b15938437",
+         intel: "7682edc3aceed7fea533e4dcb649e043066fa9d9ab6be6f9f6115f87547eb642"
 
   url "https://seosage.co/downloads/SEOSage-#{version}-Mac-#{arch}.dmg"
   name "SEOSage"
