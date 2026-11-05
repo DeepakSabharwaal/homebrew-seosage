@@ -23,9 +23,8 @@ cask "seosage" do
 
   # SEOSage is not Apple-notarised yet. Homebrew no longer skips the macOS
   # warning, so clear it here (same as the manual "xattr" step on the website).
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/SEOSage.app"]
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/SEOSage.app"], must_succeed: false
   end
 
   uninstall quit: "co.seosage.app"
