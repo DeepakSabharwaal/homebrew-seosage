@@ -3,10 +3,12 @@
 This repository holds the Homebrew install file (a "cask") for [SEOSage](https://seosage.co/), the desktop SEO audit software for Mac. Install it with one command:
 
 ```sh
-brew install --cask deepaksabharwaal/seosage/seosage
+brew install --cask seosageapp/tap/seosage
 ```
 
 Update later with `brew upgrade --cask seosage`.
+
+Installed it earlier with `deepaksabharwaal/seosage/seosage`? Nothing to do: this tap moved to the SEOSageApp organisation and GitHub forwards the old address, so updates keep arriving.
 
 - Project page: [github.com/DeepakSabharwaal/SEOSage](https://github.com/DeepakSabharwaal/SEOSage)
 - Website: [seosage.co](https://seosage.co/)
