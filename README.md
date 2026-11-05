@@ -10,7 +10,7 @@ Update later with `brew upgrade --cask seosage`.
 
 Installed it earlier with `deepaksabharwaal/seosage/seosage`? Nothing to do: this tap moved to the SEOSageApp organisation and GitHub forwards the old address, so updates keep arriving.
 
-- Project page: [github.com/DeepakSabharwaal/SEOSage](https://github.com/DeepakSabharwaal/SEOSage)
+- Project page: [github.com/SEOSageApp/SEOSage](https://github.com/SEOSageApp/SEOSage)
 - Website: [seosage.co](https://seosage.co/)
 - Download for Mac and Windows: [seosage.co/download](https://seosage.co/download/)
 - Support: [hello@seosage.co](mailto:hello@seosage.co)
